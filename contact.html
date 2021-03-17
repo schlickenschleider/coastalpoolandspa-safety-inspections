@@ -23,48 +23,45 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-		<div class="wrap">
-	    <div class="container">
-				<div class="row justify-content-between">
-					<div class="col-3 d-flex align-items-center">
-						<img class="navbar-logo" src="images/logo.png" alt="">
-					</div>
-					<div class="col-3 d-flex justify-content-end align-items-center">
-						<div class="social-media">
-			    		<p class="mb-0 d-flex">
-			    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
-			    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
-			    			<a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
-			    		</p>
-		        </div>
-					</div>
-				</div>
+
+  <header>
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		  <div class="container">
+			<div class="col-3 d-flex align-items-center">
+			  <img class="navbar-logo" src="images/logo.png" alt="">
 			</div>
-		</div>
-		
-		<section class="menu-wrap flex-md-column-reverse d-md-flex">
-			<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-		    <div class="container">
-		    
-		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-		        <span class="fa fa-bars"></span> Menu
-		      </button>
-		      <div class="req-button order-lg-last">
-		      	<a href="index.html#quote">Request A Quote</a>
-	        </div>
-		      <div class="collapse navbar-collapse" id="ftco-nav">
-                <ul class="navbar-nav mr-auto">
-		        	<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-		        	<li class="nav-item"><a href="info.html" class="nav-link">Info</a></li>
-		        	<li class="nav-item"><a href="inspections.html" class="nav-link">Inspections</a></li>
-		        	<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-		        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-		          <li class="nav-item active"><a href="#" class="nav-link">Contact</a></li>
-		        </ul>
-		      </div>
-		    </div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="fa fa-bars"></span> Menu
+			</button>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+			  <li class="nav-item"><a href="info.html" class="nav-link">Info</a></li>
+			  <li class="nav-item"><a href="inspections.html" class="nav-link">Inspections</a></li>
+			  <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+			  <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+			  <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+			</ul>
+			</div>
+			<!-- Inactive
+			<div class="col-3 d-flex justify-content-end align-items-center">
+			<div class="social-media">
+			<p class="mb-0 d-flex">
+			  <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+			  <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+			  <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+			</p>
+		  </div>
+		  -->
+		  </div>
+		  </div>
 		  </nav>
+  </header>
+
+  <body>
+
+	<section class="menu-wrap flex-md-column-reverse d-md-flex">
+		
 	    <!-- END nav -->
 	    <div class="hero-wrap hero-wrap-2" style="background-image: url('images/IMG-1991.JPG');" data-stellar-background-ratio="0.5">
 	      <div class="overlay"></div>
@@ -78,7 +75,7 @@
 	      </div>
 	    </div>
 		</section>
-   	
+
    	<section class="ftco-section bg-light">
     	<div class="container">
     		<div class="row justify-content-center">
@@ -100,9 +97,14 @@
 														<input type="email" class="form-control" name="Email" id="Email" placeholder="Email">
 													</div>
 												</div>
-												<div class="col-md-12">
+												<div class="col-md-6">
 													<div class="form-group">
-														<input type="text" class="form-control" name="Subject" id="Subject" placeholder="Subject">
+														<input type="text" class="form-control" name="Phone" id="Phone" placeholder="Phone">
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="form-group">
+														<input type="text" class="form-control" name="Suburb" id="Suburb" placeholder="Suburb">
 													</div>
 												</div>
 												<div class="col-md-12">
@@ -128,7 +130,7 @@
 					        			<span class="fa fa-map-marker"></span>
 					        		</div>
 					        		<div class="text pl-3">
-						            <p><span>Address:</span> 23 Fincher Street, Wonthaggi, Victoria, 3995</p>
+						            <p><span>Address:</span> Wonthaggi, Victoria, 3995</p>
 						          </div>
 					          </div>
 					        	<div class="dbox w-100 d-flex align-items-center">
@@ -136,7 +138,7 @@
 					        			<span class="fa fa-phone"></span>
 					        		</div>
 					        		<div class="text pl-3">
-						            <p><span>Phone:</span> <a href="tel://0418888713">0418 888 713</a></p>
+						            <p><span>Phone:</span> <a href="#">0418 888 713</a></p>
 						          </div>
 					          </div>
 					        	<div class="dbox w-100 d-flex align-items-center">
@@ -144,7 +146,7 @@
 					        			<span class="fa fa-paper-plane"></span>
 					        		</div>
 					        		<div class="text pl-3">
-						            <p><span>Email:</span> <a href="mailto:coastalpoolandspa@gmail.com">coastalpoolandspa@gmail.com</a></p>
+						            <p><span>Email:</span> <a href="mailto:coastalpoolspasafety@gmail.com">coastalpoolspasafety@gmail.com</a></p>
 						          </div>
 					          </div>
 					        	<div class="dbox w-100 d-flex align-items-center">
@@ -152,7 +154,7 @@
 					        			<span class="fa fa-globe"></span>
 					        		</div>
 					        		<div class="text pl-3">
-						            <p><span>Website</span> <a href="#">coastalpoolsandspas.com.au</a></p>
+						            <p><span>Website</span> <a href="http://www.coastalpoolspasafety.com.au">coastalpoolspasafety.com.au</a></p>
 						          </div>
 					          </div>
 				          </div>
@@ -168,71 +170,67 @@
 
 
     <footer class="footer ftco-section">
-        <div class="container">
-          <div class="row mb-5">
-            <div class="col-md-6 col-lg">
-              <div class="ftco-footer-widget mb-4">
-                <img class="brand-logo" src="images/logo.png" alt="">
-                <p>Family-owned and operated Victorian Pool Spa Safety Inspection business.</p>
-                <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-4">
-                  <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg">
-              <div class="ftco-footer-widget mb-4 ml-md-5">
-                <h2 class="ftco-heading-2">Services</h2>
-                <ul class="list-unstyled">
-					<li><a href="info.html" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Pool Safety Check</a></li>
-					<li><a href="info.html" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Barrier Inspection</a></li>
-					<li><a href="info.html" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Certificates</a></li>
-					<li><a href="info.html" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Consultation</a></li>
-					<li><a href="info.html" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Pre-sale Inspection</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg">
-               <div class="ftco-footer-widget mb-4">
-                <h2 class="ftco-heading-2">Business Hours</h2>
-                <div class="opening-hours">
-                    <h4>Opening Days:</h4>
-                    <p class="pl-3">
-                        <span>Monday – Friday : 9am to 6 pm</span>
-                  </p>
-                  <p class="pl-3">
-                        <span>Saturday : 9am to 4 pm</span>
-                    </p>
-                    <h4>Vacations:</h4>
-                    <p class="pl-3">
-                        <span>All Sundays</span>
-                        <span>All Public Holidays</span>
-                    </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg">
-              <div class="ftco-footer-widget mb-4">
-                  <h2 class="ftco-heading-2">Contact information</h2>
-                  <div class="block-23 mb-3">
-                    <ul>
-						<li><span class="icon fa fa-map-marker"></span><span class="text">23 Fincher Street, Wonthaggi, Victoria, 3995</span></li>
-						<li><span class="icon fa fa-phone"></span><span class="text">0418 888 713</span></li>
-						<li><span class="icon fa fa-paper-plane"></span><span class="text">coastalpoolandspa
-							@gmail.com</span></li>
-                    </ul>
-                  </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 text-center">
-				<p>Copyright &copy; All rights reserved | Made by <a href="#" target="_blank">Varsoline</a></p>
-            </div>
-          </div>
-        </div>
-      </footer>
+		<div class="container">
+		  <div class="row mb-5">
+			<div class="col-md-6 col-lg">
+			  <div class="ftco-footer-widget mb-4">
+					<img class="brand-logo" src="images/logo.png" alt="">
+				<p>Family-owned and operated Victorian Pool Spa Safety Inspection business.</p>
+				<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-4">
+				  <li class="ftco-animate"><a href="https://www.facebook.com/Coastal-Pool-Spa-Safety-Inspections-103792691121264"><span class="fa fa-facebook"></span></a></li>
+				  <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+				</ul>
+			  </div>
+			</div>
+			<div class="col-md-6 col-lg">
+			  <div class="ftco-footer-widget mb-4 ml-md-5">
+				<h2 class="ftco-heading-2">Services</h2>
+				<ul class="list-unstyled">
+				  <li><a href="info.html" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Pool Barrier Inspection</a></li>
+				  <li><a href="info.html" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Re-inspection</a></li>
+				  <li><a href="info.html" class="py-1 d-block"><span class="fa fa-check mr-3"></span>Pre-sale Inspection</a></li>
+				</ul>
+			  </div>
+			</div>
+			<div class="col-md-6 col-lg">
+			   <div class="ftco-footer-widget mb-4">
+				<h2 class="ftco-heading-2">Business Info</h2>
+				<div class="opening-hours">
+					<h4>Business Name & ABN</h4>
+					<p class="pl-3">
+						<span>Coastal Pool & Spa Safety Inspections</span>
+				  </p>
+				  <p class="pl-3">
+						<span>ABN: 70 158 09699</span>
+					</p>
+					<h4>Licence No.</h4>
+					<p class="pl-3">
+						<span>IN-PS 67995</span>
+					</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-6 col-lg">
+			  <div class="ftco-footer-widget mb-4">
+				  <h2 class="ftco-heading-2">Contact information</h2>
+				  <div class="block-23 mb-3">
+					<ul>
+					  <li><span class="icon fa fa-map-marker"></span><span class="text">Wonthaggi, Victoria, 3995</span></li>
+					  <li><span class="icon fa fa-phone"></span><span class="text">0418 888 713</span></li>
+					  <li><span class="icon fa fa-paper-plane"></span><span class="text">coastalpoolspasafety
+						  @gmail.com</span></li>
+					</ul>
+				  </div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="row">
+			<div class="col-md-12 text-center">
+			  <p>Copyright &copy; All rights reserved | Made by <a href="#" target="_blank">Varsoline</a></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
     
   
 

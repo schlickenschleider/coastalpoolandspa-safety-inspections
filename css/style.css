@@ -2070,7 +2070,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #039ed1;
+  background-color: #135282;
   border-color: #039ed1; }
   .btn-primary:hover {
     color: #fff;
@@ -8042,7 +8042,7 @@ h1, h2, h3, h4, h5,
       background: transparent; } }
 
 .ftco-navbar-light {
-  background: #135282 !important;
+  background: #000000 !important;
   z-index: 3;
   padding: 0;
   -webkit-box-shadow: 0px 3px 15px -15px rgba(0, 0, 0, 0.75);
@@ -8050,7 +8050,7 @@ h1, h2, h3, h4, h5,
   box-shadow: 0px 3px 15px -15px rgba(0, 0, 0, 0.75); }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #135282 important;
+      background: #000000 important;
       position: relative;
       top: 0;
       padding: 10px 15px; } }
@@ -8831,8 +8831,7 @@ h1, h2, h3, h4, h5,
     color: #fff;
     font-size: 20px; }
   @media (min-width: 1200px) {
-    .heading-title {
-      margin-top: -85px; } }
+    }
 
 .appointment {
   position: relative; }
@@ -9099,7 +9098,7 @@ textarea.form-control {
 
 .footer {
   overflow: hidden;
-  background: #135282; }
+  background: #000000; }
   .footer .logo {
     font-size: 20px !important;
     font-weight: 600 !important;

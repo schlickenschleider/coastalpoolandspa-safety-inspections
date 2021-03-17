@@ -72,5 +72,6 @@
         "vokalia",
         "word",
         "wrap"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
