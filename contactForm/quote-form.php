@@ -62,7 +62,7 @@ if (isset($_POST['Email'])) {
         return str_replace($bad, "", $string);
     }
 
-    $email_message .= "Service: " . clean_string($service) . "\n";
+    $email_message .= "Service: " . $service . "\n";
     $email_message .= "Name: " . clean_string($name) . "\n";
     $email_message .= "Email: " . clean_string($email) . "\n";
     $email_message .= "Phone: " . clean_string($phone) . "\n";

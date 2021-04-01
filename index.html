@@ -150,12 +150,12 @@
 										<div class="form-field">
 											<div class="select-wrap">
 												<div class="icon"><span class="fa fa-chevron-down"></span></div>
-												<select name="Service" id="Service" class="form-control">
-													<option value="">Select Services</option>
-													<option value="">Pool Barrier Safety Inspection</option>
-													<option value="">Re-inspection</option>
-													<option value="">Commercial inspection</option>
-													<option value="">Property pre-sale inspection</option>
+												<select class="form-control" name="Service" id="Service">
+													<option value="" disabled selected>Select Service</option>
+													<option value="Pool_Barrier_Inspection">Pool Barrier Safety Inspection</option>
+													<option value="Re_Inspection">Re-inspection</option>
+													<option value="Commercial_Inspection">Commercial inspection</option>
+													<option value="Property_Pre_Sale_Inspection">Property pre-sale inspection</option>
 												</select>
 											</div>
 										</div>
@@ -184,7 +184,7 @@
 								<div class="col-md-6">
 									<div class="form-group">
 										<div class="input-wrap">
-											<input type="text" id="Time" name="Time" class="form-control"
+											<input type="text" id="Suburb" name="Suburb" class="form-control"
 												placeholder="Suburb" required>
 										</div>
 									</div>
@@ -192,7 +192,7 @@
 								<div class="col-md-12">
 									<div class="form-group">
 										<textarea name="Message" id="Message" cols="30" rows="7" class="form-control"
-											placeholder="Message"></textarea>
+											placeholder="Message" required></textarea>
 									</div>
 								</div>
 								<div class="col-md-12">
